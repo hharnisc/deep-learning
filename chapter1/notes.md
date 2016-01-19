@@ -37,3 +37,16 @@ Perceptron Adder
 
 ![Layers](images/Layers.png)  
 Layers
+
+### A Simple Network To Classify Digits
+
+- It's best to break the higher order problem into two subproblems
+  - Breaking an image into a sequence of separate images containing the digits (segmentation)
+  - Classifying the individual digits
+- This section we'll focus on individual digits
+- One approach to solving the segmentation problem is the split up the image into multiple images and try to classify each segment with the classification algorithm
+- This approach we'll use a three layered neural network that's looking at 28 x 28 pixel images
+  - Input layer is 784 (28 x 28) neurons
+  - The hidden layer contains 15 neurons (which will be a number to play around with)
+  - Output layer is 10 neurons (one for each digit)
+  - It's possible to have less output neurons, but (at least for now) is not as accurate a the 10 neuron solution
