@@ -35,7 +35,7 @@ Perceptron Adder
 - Feedforward neural networks are neural networks where the output of one layer is passed into the input of another layer, i.e. the information is never fed back into a previous layer
 - Recurrent neural networks are neural networks where one layer is fed back into a previous layer, creating a feedback loop
 
-![Layers](images/Layers.png)  
+![Layers](images/layers.png)  
 Layers
 
 ### A Simple Network To Classify Digits
@@ -50,3 +50,6 @@ Layers
   - The hidden layer contains 15 neurons (which will be a number to play around with)
   - Output layer is 10 neurons (one for each digit)
   - It's possible to have less output neurons, but (at least for now) is not as accurate a the 10 neuron solution
+
+![Digit Classifier](images/digit-classification.png)  
+Digit Classifier
